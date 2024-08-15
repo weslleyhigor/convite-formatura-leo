@@ -1,0 +1,30 @@
+.solenidades__container {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    padding: 5rem 4rem;
+    
+    color: var(--ft-color-secundary);
+    background-color: var(--bg-color-secundary);
+}
+
+
+.solenidades__container > div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+}
+
+.solenidades__container section p {
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .solenidades__container > div{
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+}

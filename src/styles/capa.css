@@ -1,0 +1,47 @@
+.capa__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    height: 100%;
+    max-width: 100%;
+    padding-top: 5rem;
+    
+    gap: 5rem;
+
+    background-color: var(--bg-color-secundary);
+}
+
+.tt-img {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.person-img {
+    /* position: absolute;
+    bottom: 5rem;
+    
+    left: 50%;
+    transform: translate(-50%); */
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 768px) {
+    .capa__container {
+        height: 100vh;
+    }
+
+    .tt-img {
+        width: 38rem;
+    }
+
+    .person-img {
+        height: 55rem;
+        width: auto;
+    }
+}

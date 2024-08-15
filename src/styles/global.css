@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=The+Nautigal:wght@400;700&display=swap');
+
+:root {
+    --ff-primary: "The Nautigal", cursive;
+    --ff-secundary: "Montserrat", sans-serif;
+    --bg-color-primary: #495057;
+    --bg-color-secundary: #6E2E0E;
+
+    --sp-color: #fd7e14;
+
+    --ft-color-secundary: #FFFFFF;
+
+    font-size: 62.5%;
+}
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: var(--sp-color);
+    font-size: 1.6rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 8rem;
+    font-family: var(--ff-primary);  
+}
+
+h3 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--ff-primary);  
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    text-align: justify;
+    font-family: var(--ff-secundary);
+}
+
+.text-recuo {
+    text-indent: 4rem;
+}
